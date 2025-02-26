@@ -201,5 +201,6 @@ public class Main {
             }
 
         }while(op!=7);
+        System.out.print("Cambios");
     }
 }
