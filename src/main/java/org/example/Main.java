@@ -25,6 +25,7 @@ public class Main {
                     "Escribe 4 para romper la alcancia\n"+
                     "Escribe 5 para salir de tu alcancia\n");
             op = Usuario.nextInt();
+            // Evalua si el usuario selecciono una opcion valida
             if(op==1 || op==2 || op==3 || op==4 || op==5){
                 switch (op){
                     case 1:
@@ -91,10 +92,10 @@ public class Main {
                         m5=0;
                         System.out.print("Haz salido tu alcancia\n");
                         break;
-                    default: System.out.print("Opcion invalida\n");
+                    default: System.out.print("Opción invalida\n");
                 }
             }else{
-                System.out.print("Opcion invalida");
+                System.out.print("Opción invalida");
             }
         }while(op!=5);
     }
